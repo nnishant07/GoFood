@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoURI = 'mongodb+srv://nnishant0710:Nishant%400710@cluster0.bvygsz6.mongodb.net/GoFood?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://nnishant0710:{password}@cluster0.bvygsz6.mongodb.net/GoFood?retryWrites=true&w=majority';
 
 main().catch(err => console.error(err));
 
